@@ -1,0 +1,30 @@
+# Datos con copyright — no subir
+data/
+
+# Datos derivados de los PDFs (zona gris — regenerables con los scripts)
+outputs/companies.txt
+outputs/tickers.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
